@@ -4,7 +4,7 @@
 if [ "$UPDATE_DNSSEC_ANCHOR" = "yes" ]
 then
 	echo "Receiving anchor key..."
-	/usr/sbin/unbound-anchor -a /etc/unbound/trusted-key.key
+	/usr/sbin/unbound-anchor -4 -a /etc/unbound/trusted-key.key
 fi
 
 if [ "$UPDATE_ROOT_DNS_SERVERS" = "yes" ]
