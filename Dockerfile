@@ -1,4 +1,4 @@
-FROM alpine:3.16.2
+FROM alpine:3.17
 
 ENV     PACKAGES "unbound curl openssl drill tzdata bash"
 ENV     UNBOUND_VERSION "1.17.0"
