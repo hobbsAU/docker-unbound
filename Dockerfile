@@ -1,9 +1,9 @@
-FROM alpine:3.18.2
+FROM alpine:3.18.5
 
 ENV     PACKAGES "unbound curl openssl drill tzdata bash"
-ENV     UNBOUND_VERSION "1.17.1-r4"
+ENV     APLINE_VERSION "3.18.5"
 
-LABEL   org.opencontainers.image.version=${UNBOUND_VERSION} \
+LABEL   org.opencontainers.image.version=${ALPINE_VERSION} \
         org.opencontainers.image.title="hobbsau/unbound" \
         org.opencontainers.image.description="Alpine based validating, recursive, and caching DNS resolver" \
         org.opencontainers.image.url="https://github.com/hobbsAU/docker-unbound" \
