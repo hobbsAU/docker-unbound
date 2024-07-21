@@ -1,7 +1,7 @@
-FROM alpine:3.19.0
+FROM alpine:3.20.1
 
 ENV     PACKAGES "unbound curl openssl drill tzdata bash"
-ENV     APLINE_VERSION "3.19.0"
+ENV     APLINE_VERSION "3.20.1"
 
 LABEL   org.opencontainers.image.version=${ALPINE_VERSION} \
         org.opencontainers.image.title="hobbsau/unbound" \
